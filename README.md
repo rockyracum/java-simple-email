@@ -4,7 +4,7 @@
 
 _java-simple-email_ é uma __API REST__ criada com a linguagem de programação Java e o framework Jersey, desenvolvido a partir da necessidade de enviar e-mails de forma simplificada.
 
-[![License](https://img.shields.io/npm/l/react)](https://raw.githubusercontent.com/ordanael/java-simple-email/main/LICENSE) 
+[![License](https://img.shields.io/npm/l/react)](https://raw.githubusercontent.com/rockyracum/java-simple-email/main/LICENSE) 
 
 ## Tecnologias
 
@@ -29,11 +29,11 @@ _java-simple-email_ é uma __API REST__ criada com a linguagem de programação 
 
 ```shell
 # Baixar a imagem do Docker Hub
-docker pull ordanael/java-simple-email:latest
+docker pull rockyracum/java-simple-email:latest
 
 # Criar um container a partir da imagem e expôr a porta 8080
 # Substitua VALUE por suas respectivas chaves
-docker run -t -i -p 8080:8080 --name java-simple-email -e RECAPTCHA_PRIVATE_KEY=VALUE -e SENDINBLUE_API_KEY=VALUE -e EMAIL_SENDER=VALUE -e EMAIL_SUBJECT="VALUE" ordanael/java-simple-email:latest
+docker run -t -i -p 8080:8080 --name java-simple-email -e RECAPTCHA_PRIVATE_KEY=VALUE -e SENDINBLUE_API_KEY=VALUE -e EMAIL_SENDER=VALUE -e EMAIL_SUBJECT="VALUE" rockyracum/java-simple-email:latest
 
 # A aplicação já está em execução neste ponto, utilize os comandos abaixo para desligar a aplicação
 
@@ -47,7 +47,7 @@ docker start java-simple-email
 docker rm java-simple-email
 
 # Remover imagem
-docker rmi ordanael/java-simple-email:latest
+docker rmi rockyracum/java-simple-email:latest
 ```
 
 ### Com Git
@@ -56,7 +56,7 @@ docker rmi ordanael/java-simple-email:latest
 
 ```shell
 # Clonar o repositório git
-git clone https://github.com/ordanael/java-simple-email.git
+git clone https://github.com/rockyracum/java-simple-email.git
 
 # Entrar na pasta do repositório
 cd java-simple-email
